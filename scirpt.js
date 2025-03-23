@@ -59,9 +59,10 @@ function getBotResponse(input) {
                 // admission
         "admission": "Are you looking for Regular admission or Lateral Entry admission? Type 'Regular' or 'Lateral' for details.",
         "regular": "Regular admission is based on the entrance exam conducted by JUT. Apply through the official website: [https://gpa.ac.in/#/](https://gpa.ac.in/#/).",
-        "lateral": "Lateral Entry admission is available for diploma holders in relevant fields. For eligibility and application details, visit: [https://gpa.ac.in/#/](https://gpa.ac.in/#/).",
+        "lateral": "Lateral Entry admission is available for class 12th and it is also done by taking by entrance exam. For eligibility and application details, visit: [https://gpa.ac.in/#/](https://gpa.ac.in/#/).",
         
         "courses": "We offer Computer Science, Electrical, Mechanical, and Metallurgical Engineering.",
+        "college fees": "You can visit the official College website (https://gpa.ac.in/#/).",
         "faculty": "We have experienced faculty members in all departments. Visit the Faculty page for more details.",
         "placement": "Our students have been placed in top companies. Visit our Placement Page for more details.",
         "syllabus": "The syllabus is available on the JUT official website. Visit: [http://jutranchi.ac.in](http://jutranchi.ac.in)",
@@ -73,11 +74,12 @@ function getBotResponse(input) {
         "notice": "You can visit the official College website. Visit:()",
         "timing": "college timing is 10:00 am to 5:00pm.",
         "coures for how many year": "The course duration is 3 years, divided into 6 semesters.",
-        "Total subject in 1st sem": "Total subjects in 1st semester: 5 subjects – Engineering Physics, Engineering Chemistry, Mathematics, Fundamentals of Computer, and Engineering Graphics.",
+        "total subject in 1st sem": "Total subjects in 1st semester: 5 subjects – Engineering Physics, Engineering Chemistry, Mathematics, Fundamentals of Computer, and Engineering Graphics.",
         "student facilities": "canteen, computer lab, Wi-Fi, canteen and many more facilities.",
-        "academics & exams": "exam schedule:-The exam schedule is released by JUT and for the fees also You can check the official website: http://jutranchi.ac.in.",        
+        "academics & exam": "exam schedule:-The exam schedule is released by JUT and for the fees also You can check the official website: http://jutranchi.ac.in.",        
         "result": "Results are given only to the respective college.",        
         "attendance criteria": "Students must maintain at least 75% attendance to be eligible for exams.",  
+        "how is marks distribution done ": "Each subject has a total of 100 marks, divided into 80 marks for the theory exam and 20 marks for internal assessment.",     
         "marks distribution": "Each subject has a total of 100 marks, divided into 80 marks for the theory exam and 20 marks for internal assessment."      
     };
 
