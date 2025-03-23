@@ -164,7 +164,17 @@ header {
     color: #004080;
     margin-top: 15px;
 }
+@media (max-width: 768px) {
+    .departments {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px;
+    }
 
+    .departments li {
+        width: 90%; /* Take most of the screen width */
+        margin: 0 auto;
+    }
+}
 
 /* Syllabus Section */
 .syllabus {
