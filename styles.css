@@ -170,6 +170,13 @@ header {
     transform: scale(1.05);
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
 }
+.departments li img {
+    transition: transform 1.5s ;
+}
+
+.departments li img:hover {
+    transform: rotate(360deg);
+}
 
 .dept-icon {
     width: 100px;
@@ -427,14 +434,14 @@ footer {
 }
 
 #userInput {
-    width: 82%;
+    width: 95%;
     padding: 5px;
-    margin: 2px;
+    margin: 6px;
 }
 
 button {
     padding: 5px 10px;
-    background: #ff6f61;
+    background: #2181ef;
     color: white;
     border: none;
     cursor: pointer;
