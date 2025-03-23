@@ -10,19 +10,20 @@ body {
     background-color: #f4f4f4;
     text-align: center;
 }
+/* Default Desktop View */
 header {
-    background-color: #002147;
-    color: white;
-    padding: 40px; /* Increased padding for more free space */
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Increased spacing between logo and text */
+    background-color: #002147;
+    color: white;
+    padding: 20px;
     text-align: center;
+    gap: 20px;
 }
 
 .logo {
-    width: 100px; /* Increased size for better visibility */
+    width: 100px; /* Default logo size */
 }
 
 .header-text {
@@ -31,16 +32,35 @@ header {
 }
 
 .header-text h1 {
-    font-size: 28px; /* Slightly bigger */
-    margin: 10px 0; /* Added space */
+    font-size: 28px;
+    margin: 5px 0;
 }
 
 .header-text h2 {
     font-size: 18px;
-    margin: 10px 0; /* More space between text */
-    font-weight: normal;
-    letter-spacing: 0.5px; /* Slight spacing for better readability */
+    margin: 5px 0;
 }
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and text */
+        text-align: center;
+    }
+
+    .logo {
+        width: 80px; /* Smaller logo */
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+    }
+
+    .header-text h2 {
+        font-size: 16px;
+    }
+}
+
 
 /* 📌 Navbar Background */
 .navbar {
